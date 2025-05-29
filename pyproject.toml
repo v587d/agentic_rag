@@ -1,0 +1,13 @@
+[project]
+name = "agentic-rag-mcp-server"
+version = "0.1.0"
+description = "A Model Context Protocol server for RAG embedded LLM"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.0.0",
+    "pypdf>=5.5.0",  # 用于读取PDF文件
+    "tiktoken>=0.9.0",  # 用于计算token数量
+    "jieba>=0.42.1",   # 用于中文分词
+    "openai>=1.82.0", # 调用OpenAI API
+    "tenacity>=9.1.2" # 重试策略
+]
