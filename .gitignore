@@ -8,3 +8,7 @@ __pycache__/
 .idea/
 # System files
 .DS_Store
+# Obsidian
+.obsidian/
+# log
+qa_logs/
